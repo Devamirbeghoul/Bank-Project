@@ -56,7 +56,6 @@
             this.ctrClientInfoWithFilter1.Name = "ctrClientInfoWithFilter1";
             this.ctrClientInfoWithFilter1.Size = new System.Drawing.Size(954, 527);
             this.ctrClientInfoWithFilter1.TabIndex = 0;
-            this.ctrClientInfoWithFilter1.ClientSelected += OnClientSelected;
             // 
             // epValidate
             // 
@@ -141,6 +140,7 @@
             this.tbAmount.ShadowDecoration.Parent = this.tbAmount;
             this.tbAmount.Size = new System.Drawing.Size(229, 38);
             this.tbAmount.TabIndex = 50;
+            this.tbAmount.Validating += new System.ComponentModel.CancelEventHandler(this.tbAmount_Validating);
             // 
             // label1
             // 
