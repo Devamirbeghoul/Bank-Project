@@ -56,6 +56,7 @@
             this.ctrClientInfoWithFilter1.Name = "ctrClientInfoWithFilter1";
             this.ctrClientInfoWithFilter1.Size = new System.Drawing.Size(954, 527);
             this.ctrClientInfoWithFilter1.TabIndex = 0;
+            this.ctrClientInfoWithFilter1.ClientSelected += OnClientSelected;
             // 
             // epValidate
             // 
