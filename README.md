@@ -49,7 +49,7 @@ This secure banking application provides role-based access with three distinct i
 ## Technical Implementation
 
 ### Security Architecture
-- AES-256 encryption for sensitive data
+- AES-128 encryption for sensitive data
 
 ### Database Schema
 - Normalized relational structure
